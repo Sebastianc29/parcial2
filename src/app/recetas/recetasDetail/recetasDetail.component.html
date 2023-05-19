@@ -1,0 +1,28 @@
+<div class="container-fluid">
+  <p class="h3 p-3">{{ recetaDetail.nombre }}</p>
+  <div class="row">
+    <div class="col-2">
+      <div class="thumb">
+        <img
+          class="img-fluid"
+          src="{{ recetaDetail.imangen }}"
+          alt="{{ recetaDetail.nombre }}"
+        />
+      </div>
+    </div>
+    <div class="col">
+      <dl>
+
+        <dt>Duración</dt>
+        <dd>{{ recetaDetail.duracion }}</dd>
+
+        <hr />
+
+        <dt>Dificultad</dt>
+        <dd>{{ recetaDetail.dificultad }}</dd>
+
+
+      </dl>
+    </div>
+  </div>
+</div>
